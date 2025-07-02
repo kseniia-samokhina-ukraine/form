@@ -1,0 +1,65 @@
+@import url('./normalize.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(18, 139, 30), yellow) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 30%;
+    height: 500px;
+    background: rgb(202, 192, 192);
+    border-radius: 10%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(yellow, rgb(18, 139, 30)) no-repeat;
+    background-size: cover;
+}
+
+.authorization {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+
+
+.display_class {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    color: rgb(224, 220, 214);
+    background: rgb(28, 74, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
